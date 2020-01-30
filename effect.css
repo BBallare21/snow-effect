@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./Images/snowy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.snowy {
+    height: 100vh;
+    background: url(./Images/Snow.png) no-repeat;
+    animation: snowy .2s linear infinite;
+}
+
+@keyframes snowy {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 20%;
+    }
+}
